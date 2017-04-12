@@ -1,0 +1,105 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Web View */
+body {
+	padding: 20px;
+}
+
+.navigation-bar {
+	background-color: white;
+	padding: 16px 20px 16px 0px;
+	position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.site-logo {
+	position: fixed;
+	top: 39px;
+	left: 20px;
+}
+
+.nav {
+	border-bottom: 4px solid black;
+	border-top: 4px solid black;
+	padding: 5px;
+	display: flex;
+	height: 75px;
+}
+
+.nav .dotted-line {
+	border-top: 3px dashed black;
+	border-bottom: 3px dashed black;
+	flex: 1 2 auto;
+}
+
+.nav .solid-line {
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+	flex: 12 2 auto;
+}
+
+.navigation-items {
+	position: absolute;
+	top: 45px;
+	right: 20px;
+}
+
+ul.navigation-items {
+	list-style-type: none;
+}
+
+.navigation-items li {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-style: normal;
+	display: inline;
+	padding: 0px 10px 0px 10px
+
+}
+
+main {
+	padding: 20px 20px 20px 20px;
+}
+
+.main {
+	color: white;
+	margin: 70px 0px 15px 0px;
+	background-color: red;
+	height: 400px;
+}
+
+/*Footer*/
+
+.footer-bar {
+	background-color: white;
+	padding: 16px 20px 16px 0px;
+	position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.footer {
+	border-bottom: 4px solid black;
+	border-top: 4px solid black;
+	padding: 5px;
+	display: flex;
+	height: 75px;
+}
+
+.footer .dotted-line {
+	border-top: 3px dashed black;
+	border-bottom: 3px dashed black;
+	border-right: 3px solid black;
+	border-left: 3px solid black;
+	margin: 0px 3px 0px 3px;
+	flex: 1 2 auto;
+}
+
+.footer .solid-line {
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+	flex: 5 2 auto;
+}
+/* Tablet View */
+	
+/* Mobile View */
