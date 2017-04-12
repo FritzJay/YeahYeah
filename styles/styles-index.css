@@ -1,12 +1,68 @@
 @charset "UTF-8";
 /* CSS Document */
-
-ul.nav {
-	list-style-type: none;
-	padding: 0px;
-	margin: 0px;
+body {
+	padding: 20px;
 }
 
-.nav li {
+.nav {
+	border-bottom: 2px solid black;
+	border-top: 2px solid black;
+	padding: 5px;
+	display: flex;
+	height: 50px;
+}
+
+.nav .dotted-line {
+	border-top: 2px dashed black;
+	border-bottom: 2px dashed black;
+	flex: 1 2 auto;
+}
+
+.nav .solid-line {
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	flex: 12 2 auto;
+}
+
+.navigation-items {
+	position: absolute;
+	top: 35px;
+	right: 50px;
+}
+
+ul.navigation-items {
+	list-style-type: none;
+}
+
+.navigation-items li {
 	display: inline;
+}
+
+.main {
+	margin: 15px 0 15px 0;
+	background-color: red;
+	height: 500px;
+}
+
+.footer {
+	border-bottom: 2px solid black;
+	border-top: 2px solid black;
+	padding: 5px;
+	display: flex;
+	height: 50px;
+}
+
+.footer .dotted-line {
+	border-top: 2px dashed black;
+	border-bottom: 2px dashed black;
+	border-right: 4px solid black;
+	border-left: 4px solid black;
+	margin: 0px 3px 0px 3px;
+	flex: 1 2 auto;
+}
+
+.footer .solid-line {
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	flex: 5 2 auto;
 }
