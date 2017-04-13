@@ -6,11 +6,9 @@ body {
 	padding: 20px;
 }
 
-
-/* Header */
 .navigation-bar {
 	background-color: white;
-	padding: 16px 0px 16px 0px;
+	padding: 16px 20px 16px 0px;
 	position: fixed;
     top: 0;
     width: 100%;
@@ -45,7 +43,7 @@ body {
 .navigation-items {
 	position: absolute;
 	top: 45px;
-	right: 40px;
+	right: 20px;
 }
 
 ul.navigation-items {
@@ -55,63 +53,35 @@ ul.navigation-items {
 .navigation-items li {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	font-style: normal;
+	display: inline;
+	padding: 0px 10px 0px 10px
+
 }
 
-/* Main Content */
-
 main {
-	margin: 16px 20px 16px 20px;
+	padding: 20px 20px 20px 20px;
 }
 
 .main {
 	color: white;
 	margin: 70px 0px 15px 0px;
-	padding: 20px 0px 20px 20px; 
 	background-color: red;
 	height: 400px;
-}
-
-.text-justify {
-	margin-left: 20px;
-	margin-top: 20px;
-}
-
-.gs-button {
-	background-color:transparent;
-	border-radius:8px;
-	border:4px solid #ffffff;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
-	font-size:16px;
-	padding:10px 20px;
-	text-decoration:none;
-	margin: 20px;
-}
-.gs-button:hover {
-	background-color:white;
-	color: red;
-	text-decoration: none;
-}
-.gs-button:active {
-	position:relative;
-	top:1px;
 }
 
 /*Footer*/
 
 .footer-bar {
 	background-color: white;
-	padding: 0px 20px 16px 0px;
-	position: fixed;
+	padding: 16px 20px 16px 0px;
+	position: absolute;
     bottom: 0;
     width: 100%;
 }
 .footer {
 	border-bottom: 4px solid black;
 	border-top: 4px solid black;
-	padding: 5px 20px 5px 0px;
+	padding: 5px;
 	display: flex;
 	height: 75px;
 }
@@ -119,43 +89,16 @@ main {
 .footer .dotted-line {
 	border-top: 3px dashed black;
 	border-bottom: 3px dashed black;
-	margin: 0px 5px 0px 5px;
-	flex: 1 1 auto;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.footer .inner-dotted-line {
 	border-right: 3px solid black;
 	border-left: 3px solid black;
-	flex: 1 1 auto;
-	height: 80%;
+	margin: 0px 3px 0px 3px;
+	flex: 1 2 auto;
 }
+
 .footer .solid-line {
 	border-top: 3px solid black;
 	border-bottom: 3px solid black;
-	flex: 7 1 auto;
-}
-
-.number {
-	font-size: 175%;
-}
-
-.year{
-	font-size: 50%;
-	font-weight: bold;
-}
-
-
-.facebook-logo {
-	height: 50px;
-	padding: 7px 20px 7px 7px;
-}
-
-.twitter-logo {
-	height: 50px;
-	padding: 7px 7px 7px 7px;
+	flex: 5 2 auto;
 }
 /* Tablet View */
 	
