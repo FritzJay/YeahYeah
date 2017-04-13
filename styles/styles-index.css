@@ -43,7 +43,7 @@ body {
 .navigation-items {
 	position: absolute;
 	top: 45px;
-	right: 20px;
+	right: 40px;
 }
 
 ul.navigation-items {
@@ -53,10 +53,10 @@ ul.navigation-items {
 .navigation-items li {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	font-style: normal;
-	display: inline;
-	padding: 0px 10px 0px 10px
 
 }
+
+/* Main Content */
 
 main {
 	padding: 20px 20px 20px 20px;
@@ -69,19 +69,24 @@ main {
 	height: 400px;
 }
 
+.text-justify {
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
 /*Footer*/
 
 .footer-bar {
 	background-color: white;
 	padding: 16px 20px 16px 0px;
-	position: absolute;
+	position: fixed;
     bottom: 0;
     width: 100%;
 }
 .footer {
 	border-bottom: 4px solid black;
 	border-top: 4px solid black;
-	padding: 5px;
+	padding: 5px 0px 5px 0px;
 	display: flex;
 	height: 75px;
 }
@@ -89,16 +94,23 @@ main {
 .footer .dotted-line {
 	border-top: 3px dashed black;
 	border-bottom: 3px dashed black;
-	border-right: 3px solid black;
-	border-left: 3px solid black;
-	margin: 0px 3px 0px 3px;
-	flex: 1 2 auto;
+	margin: 0px 5px 0px 5px;
+	flex: 1 1 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
+.footer .inner-dotted-line {
+	border-right: 3px solid black;
+	border-left: 3px solid black;
+	flex: 1 1 auto;
+	height: 80%;
+}
 .footer .solid-line {
 	border-top: 3px solid black;
 	border-bottom: 3px solid black;
-	flex: 5 2 auto;
+	flex: 7 1 auto;
 }
 /* Tablet View */
 	
