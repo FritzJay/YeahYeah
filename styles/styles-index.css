@@ -1,11 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
 
-/* Web View */
-body {
-	padding: 20px;
-}
-
 /* Header */
 .navigation-bar {
 	background-color: white;
@@ -58,16 +53,11 @@ ul.navigation-items {
 
 /* Main Content */
 
-main {
-	margin: 16px 20px 16px 20px;
-}
-
 .main {
 	color: white;
-	margin: 70px 0px 15px 0px;
 	background-color: red;
 	height: 400px;
-	padding: 20px 0px 20px 20px; 
+	padding: 20px 0px 20px 20px;
 	background-color: red;
 	height: 400px;
 }
@@ -107,17 +97,16 @@ main {
 
 .footer-bar {
 	background-color: white;
-.footer-bar {
-	background-color: white;
-	padding: 0px 20px 16px 0px;
+	padding: 0px 0px 16px 0px;
 	position: fixed;
-    bottom: 0;
-    width: 100%;
+  bottom: 0;
+  width: 100%;
 }
+
 .footer {
 	border-bottom: 4px solid black;
 	border-top: 4px solid black;
-	padding: 5px 20px 5px 0px;
+	padding: 5px 0px 5px 0px;
 	display: flex;
 	height: 75px;
 }
@@ -184,5 +173,5 @@ main {
 	padding: 7px 7px 7px 7px;
 }
 /* Tablet View */
-	
+
 /* Mobile View */
