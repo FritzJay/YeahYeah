@@ -6,7 +6,6 @@ body {
 	padding: 20px;
 }
 
-
 /* Header */
 .navigation-bar {
 	background-color: white;
@@ -66,6 +65,8 @@ main {
 .main {
 	color: white;
 	margin: 70px 0px 15px 0px;
+	background-color: red;
+	height: 400px;
 	padding: 20px 0px 20px 20px; 
 	background-color: red;
 	height: 400px;
@@ -98,9 +99,14 @@ main {
 	position:relative;
 	top:1px;
 }
-
 /*Footer*/
+.text-justify {
+	margin-left: 20px;
+	margin-top: 20px;
+}
 
+.footer-bar {
+	background-color: white;
 .footer-bar {
 	background-color: white;
 	padding: 0px 20px 16px 0px;
@@ -136,6 +142,26 @@ main {
 	border-top: 3px solid black;
 	border-bottom: 3px solid black;
 	flex: 7 1 auto;
+}
+
+.number {
+	font-size: 175%;
+}
+
+.year{
+	font-size: 50%;
+	font-weight: bold;
+}
+
+
+.facebook-logo {
+	height: 50px;
+	padding: 7px 20px 7px 7px;
+}
+
+.twitter-logo {
+	height: 50px;
+	padding: 7px 7px 7px 7px;
 }
 
 .number {
