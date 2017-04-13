@@ -6,17 +6,10 @@ body {
 	padding: 20px;
 }
 
-<<<<<<< HEAD
-.navigation-bar {
-	background-color: white;
-	padding: 16px 20px 16px 0px;
-=======
 /* Header */
-
 .navigation-bar {
 	background-color: white;
 	padding: 16px 0px 16px 0px;
->>>>>>> master
 	position: fixed;
     top: 0;
     width: 100%;
@@ -61,29 +54,19 @@ ul.navigation-items {
 .navigation-items li {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	font-style: normal;
-<<<<<<< HEAD
-
-=======
->>>>>>> master
 }
 
 /* Main Content */
 
 main {
-<<<<<<< HEAD
-	padding: 20px 20px 20px 20px;
-=======
 	margin: 16px 20px 16px 20px;
->>>>>>> master
 }
 
 .main {
 	color: white;
 	margin: 70px 0px 15px 0px;
-<<<<<<< HEAD
 	background-color: red;
 	height: 400px;
-=======
 	padding: 20px 0px 20px 20px; 
 	background-color: red;
 	height: 400px;
@@ -111,31 +94,22 @@ main {
 	background-color:white;
 	color: red;
 	text-decoration: none;
->>>>>>> master
 }
 .gs-button:active {
 	position:relative;
 	top:1px;
 }
-
 /*Footer*/
-
-<<<<<<< HEAD
 .text-justify {
 	margin-left: 20px;
 	margin-top: 20px;
 }
 
-/*Footer*/
-
 .footer-bar {
 	background-color: white;
-	padding: 16px 20px 16px 0px;
-=======
 .footer-bar {
 	background-color: white;
 	padding: 0px 20px 16px 0px;
->>>>>>> master
 	position: fixed;
     bottom: 0;
     width: 100%;
@@ -143,11 +117,7 @@ main {
 .footer {
 	border-bottom: 4px solid black;
 	border-top: 4px solid black;
-<<<<<<< HEAD
-	padding: 5px 0px 5px 0px;
-=======
 	padding: 5px 20px 5px 0px;
->>>>>>> master
 	display: flex;
 	height: 75px;
 }
@@ -172,8 +142,6 @@ main {
 	border-top: 3px solid black;
 	border-bottom: 3px solid black;
 	flex: 7 1 auto;
-<<<<<<< HEAD
-=======
 }
 
 .number {
@@ -194,7 +162,26 @@ main {
 .twitter-logo {
 	height: 50px;
 	padding: 7px 7px 7px 7px;
->>>>>>> master
+}
+
+.number {
+	font-size: 175%;
+}
+
+.year{
+	font-size: 50%;
+	font-weight: bold;
+}
+
+
+.facebook-logo {
+	height: 50px;
+	padding: 7px 20px 7px 7px;
+}
+
+.twitter-logo {
+	height: 50px;
+	padding: 7px 7px 7px 7px;
 }
 /* Tablet View */
 	
