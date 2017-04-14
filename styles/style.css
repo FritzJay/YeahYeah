@@ -53,12 +53,42 @@
 
 /* INITIAL-FOOTER */	
 
-.initial-footer {
+.initial-footer-container {
+  background-color: #ffffff;
+  height: 100px;
+	position: static;
+  width: fluid;
+	padding: 16px 0px 16px 0px;
+}
+
+.solid-line-footer {
+	border-top: 4px solid black;
+	border-bottom: 4px solid black;
+	padding: 5px 0 5px 0;
+	height: 100%;
+}
+
+.solid-line {
 	border-top: 3px solid black;
-  border-bottom: 3px solid black;
-	margin-top: 16px;
-	margin-bottom: 16px;
-  padding: 5px 0 5px 0;
+	border-bottom: 3px solid black;
+	padding: 5px 0 5px 0;
+	height: 100%;
+}
+
+.dashed-line {
+	border-top: 3px dashed black;
+	border-bottom: 3px dashed black;
+	padding: 5px 0 5px 0;
+	height: 100%;	
+}
+
+.inner-dashed-line {
+	border-right: 3px solid black; 
+	border-left: 3px solid black;
+	margin-right: 6px;
+	margin-left: 6px;
+	padding: 5px 0 5px 0;
+	height: 100%;
 }
 
 /* SAMPLES */
@@ -99,12 +129,12 @@
 /* FOOTER CONTAINER */
 
 .footer-container {
-  background-color: #ccc;
+  background-color: #FFFFFF;
   height: 100px;
 	position: static;
   bottom: 0;
   width: fluid;
-	padding: 16px 16px 16px 16px;
+	padding: 0px 16px 16px 16px;
 }
 
 .solid-line-tb {
