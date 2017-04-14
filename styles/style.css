@@ -36,14 +36,14 @@
 
 /*  MAIN CONTENT */
 .main-content {
+  padding-bottom: 115px;
   margin-top: 100px;
-  height: 600px;
   background-color: red;
 }
 
 .main-content h2 {
   padding: 16px 0 5px 0;
-  margin-left: 32px;
+  margin-left: 16px;
   color: white;
   font-family: Arial;
   border-bottom: 3px solid white;
@@ -53,6 +53,32 @@
 .main-content p {
   color: white;
   margin: 16px 0 0 16px;
+}
+
+.main-content .button-main {
+  background-color: transparent;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  border: 5px solid #ffffff;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 20px;
+  padding: 16px 31px;
+  text-decoration: none;
+  margin: 16px;
+}
+
+.main-content .button-main:hover {
+  background-color: white;
+  color: red;
+}
+
+.main-content .button-main:active {
+position: relative;
+top: 1px;
 }
 
 .page-break-container {
@@ -189,13 +215,12 @@
 }
 
 /* FOOTER CONTENT */
-
-.facebook-logo {
-	height: 50px;
-	padding: 7px 20px 7px 7px;
+.solid-line h6 {
+  float: left;
 }
 
-.twitter-logo {
+.logo {
+  float: right;
 	height: 50px;
 	padding: 7px 7px 7px 7px;
 }

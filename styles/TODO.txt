@@ -1,3 +1,7 @@
 Margin for xs size .samples
 Down arrow in footer
 Show menu when not toggled
+Change 'get started' button size when screen size changes
+Adjust padding-left on Main-content
+Vcenter footer h6
+Center text in left footer
