@@ -1,8 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
 
-/* Header */
-
 /* ------------- HEADER --------------- */
 
 /* NAVIGATION */
@@ -53,13 +51,130 @@
   padding: 5px 0 5px 0;
 }
 
+/* INITIAL-FOOTER */	
+
+.initial-footer-container {
+  background-color: #ffffff;
+  height: 100px;
+	position: static;
+  width: fluid;
+	padding: 16px 0px 16px 0px;
+}
+
+.solid-line-footer {
+	border-top: 4px solid black;
+	border-bottom: 4px solid black;
+	padding: 5px 0 5px 0;
+	height: 100%;
+}
+
+.solid-line {
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+	padding: 5px 0 5px 0;
+	height: 100%;
+}
+
+.dashed-line {
+	border-top: 3px dashed black;
+	border-bottom: 3px dashed black;
+	padding: 5px 0 5px 0;
+	height: 100%;	
+}
+
+.inner-dashed-line {
+	border-right: 3px solid black; 
+	border-left: 3px solid black;
+	margin-right: 6px;
+	margin-left: 6px;
+	padding: 5px 0 5px 0;
+	height: 100%;
+}
+
 /* SAMPLES */
 .samples div {
+	flex: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
 }
+
+/* SAMPLE-CONTENT */
+
+.sample-content {
+	height: 200px;
+  background-color: red;
+	margin-top: 0px;
+	margin-bottom: 16px;
+		
+}
+
+
+/* CONTACT-ROW */
+
+.contact {
+	height: 200px;
+  background-color: red;
+	margin-top: 0px;
+	margin-bottom: 16px;
+	
+
+}
+
 
 /* ------------- FOOTER ------------------ */
 
+
+/* FOOTER CONTAINER */
+
 .footer-container {
-  background-color: #ccc;
-  height: 50px;
+  background-color: #FFFFFF;
+  height: 100px;
+	position: static;
+  bottom: 0;
+  width: fluid;
+	padding: 0px 16px 16px 16px;
+}
+
+.solid-line-tb {
+	border-top: 4px solid black;
+	border-bottom: 4px solid black;
+	padding: 5px 0 5px 0;
+	height: 100%;
+}
+
+.solid-line {
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+	padding: 5px 0 5px 0;
+	height: 100%;
+}
+
+.dashed-line {
+	border-top: 3px dashed black;
+	border-bottom: 3px dashed black;
+	padding: 5px 0 5px 0;
+	height: 100%;	
+}
+
+.inner-dashed-line {
+	border-right: 3px solid black; 
+	border-left: 3px solid black;
+	margin-right: 6px;
+	margin-left: 6px;
+	padding: 5px 0 5px 0;
+	height: 100%;
+}
+
+/* FOOTER CONTENT */
+
+.facebook-logo {
+	height: 50px; 
+	padding: 7px 20px 7px 7px;
+}
+
+.twitter-logo {
+	height: 50px;
+	padding: 7px 7px 7px 7px;
 }
