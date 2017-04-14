@@ -1,0 +1,3 @@
+Margin for xs size .samples
+Down arrow in footer
+Show menu when not toggled

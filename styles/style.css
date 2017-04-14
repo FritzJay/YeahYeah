@@ -34,9 +34,25 @@
   margin-right: 16px;
 }
 
+/*  MAIN CONTENT */
 .main-content {
+  margin-top: 100px;
   height: 600px;
   background-color: red;
+}
+
+.main-content h2 {
+  padding: 16px 0 5px 0;
+  margin-left: 32px;
+  color: white;
+  font-family: Arial;
+  border-bottom: 3px solid white;
+  width: 116px;
+}
+
+.main-content p {
+  color: white;
+  margin: 16px 0 0 16px;
 }
 
 .page-break-container {
@@ -91,14 +107,20 @@
 	height: 100%;
 }
 
+.down-arrow {
+  text-align: center;
+  vertical-align: middle;
+  height: 100%;
+}
+
 /* SAMPLES */
 .samples div {
 	display: flex;
+  justify-content: center;
 	margin-top: 0px;
 	margin-bottom: 0px;
 	padding-right: 0px;
 	padding-left: 0px;
-  justify-content: center;
 }
 
 /* SAMPLE-CONTENT */
@@ -119,8 +141,6 @@
   background-color: red;
 	margin-top: 0px;
 	margin-bottom: 16px;
-
-
 }
 
 
