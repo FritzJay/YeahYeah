@@ -70,26 +70,56 @@
 	padding-left: 0px;
 }
 
+/* SAMPLE-CONTENT */
+
+.sample-content {
+	height: 200px;
+  background-color: red;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 16px;
+	margin-right: 0px;	
+}
+
+
+/* CONTACT-ROW */
+
+.contact {
+	height: 200px;
+  background-color: red;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 16px;
+	margin-right: 0px;
+
+}
+
 
 /* ------------- FOOTER ------------------ */
 
 .footer-container {
   background-color: #ccc;
   height: 100px;
-	padding: 16px 0px 16px 0px;
-	position: static;
-  bottom: 0;
-  width: 100%;
 }
 
 .solid-line {
-	border-bottom: 4px solid black;
 	border-top: 4px solid black;
-	padding: 5px 0px 5px 0px;
+  border-bottom: 4px solid black;
+  margin: 0px 16px 0px 16px;
+  padding: 5px 0 5px 0;
 	display: flex;
-	height: px;
 }
 
 .dashed-line {
-	
+	display: flex;
+}
+
+.facebook-logo {
+	height: 50px; 
+	padding: 7px 20px 7px 7px;
+}
+
+.twitter-logo {
+	height: 50px;
+	padding: 7px 7px 7px 7px;
 }
