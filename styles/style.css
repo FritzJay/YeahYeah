@@ -63,12 +63,13 @@
 
 /* SAMPLES */
 .samples div {
-	background-color: red;
-	height: 300px;
 	flex: auto;
 	margin-top: 16px;
 	margin-bottom: 16px;
+	padding-right: 0px;
+	padding-left: 0px;
 }
+
 
 /* ------------- FOOTER ------------------ */
 
