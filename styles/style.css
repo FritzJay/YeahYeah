@@ -51,7 +51,7 @@
   padding: 5px 0 5px 0;
 }
 
-/* INITIAL-FOOTER */	
+/* INITIAL-FOOTER */
 
 .initial-footer-container {
   background-color: #ffffff;
@@ -79,11 +79,11 @@
 	border-top: 3px dashed black;
 	border-bottom: 3px dashed black;
 	padding: 5px 0 5px 0;
-	height: 100%;	
+	height: 100%;
 }
 
 .inner-dashed-line {
-	border-right: 3px solid black; 
+	border-right: 3px solid black;
 	border-left: 3px solid black;
 	margin-right: 6px;
 	margin-left: 6px;
@@ -93,11 +93,12 @@
 
 /* SAMPLES */
 .samples div {
-	flex: auto;
+	display: flex;
 	margin-top: 0px;
 	margin-bottom: 0px;
 	padding-right: 0px;
 	padding-left: 0px;
+  justify-content: center;
 }
 
 /* SAMPLE-CONTENT */
@@ -107,7 +108,7 @@
   background-color: red;
 	margin-top: 0px;
 	margin-bottom: 16px;
-		
+  flex: auto;
 }
 
 
@@ -118,7 +119,7 @@
   background-color: red;
 	margin-top: 0px;
 	margin-bottom: 16px;
-	
+
 
 }
 
@@ -155,11 +156,11 @@
 	border-top: 3px dashed black;
 	border-bottom: 3px dashed black;
 	padding: 5px 0 5px 0;
-	height: 100%;	
+	height: 100%;
 }
 
 .inner-dashed-line {
-	border-right: 3px solid black; 
+	border-right: 3px solid black;
 	border-left: 3px solid black;
 	margin-right: 6px;
 	margin-left: 6px;
@@ -170,7 +171,7 @@
 /* FOOTER CONTENT */
 
 .facebook-logo {
-	height: 50px; 
+	height: 50px;
 	padding: 7px 20px 7px 7px;
 }
 
