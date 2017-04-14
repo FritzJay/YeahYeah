@@ -1,8 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
 
-/* Header */
-
 /* ------------- HEADER --------------- */
 
 /* NAVIGATION */
@@ -53,13 +51,44 @@
   padding: 5px 0 5px 0;
 }
 
+/* INITIAL-FOOTER */	
+
+.initial-footer {
+	border-top: 3px solid black;
+  border-bottom: 3px solid black;
+	margin-top: 16px;
+	margin-bottom: 16 px;
+  padding: 5px 0 5px 0;
+}
+
 /* SAMPLES */
 .samples div {
+	background-color: red;
+	height: 300px;
+	flex: auto;
+	margin-top: 16px;
+	margin-bottom: 16px;
 }
 
 /* ------------- FOOTER ------------------ */
 
 .footer-container {
   background-color: #ccc;
-  height: 50px;
+  height: 100px;
+	padding: 16px 0px 16px 0px;
+	position: static;
+  bottom: 0;
+  width: 100%;
+}
+
+.solid-line {
+	border-bottom: 4px solid black;
+	border-top: 4px solid black;
+	padding: 5px 0px 5px 0px;
+	display: flex;
+	height: px;
+}
+
+.dashed-line {
+	
 }
