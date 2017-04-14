@@ -57,15 +57,15 @@
 	border-top: 3px solid black;
   border-bottom: 3px solid black;
 	margin-top: 16px;
-	margin-bottom: 16 px;
+	margin-bottom: 16px;
   padding: 5px 0 5px 0;
 }
 
 /* SAMPLES */
 .samples div {
 	flex: auto;
-	margin-top: 16px;
-	margin-bottom: 16px;
+	margin-top: 0px;
+	margin-bottom: 0px;
 	padding-right: 0px;
 	padding-left: 0px;
 }
@@ -76,9 +76,8 @@
 	height: 200px;
   background-color: red;
 	margin-top: 0px;
-	margin-right: 0px;
 	margin-bottom: 16px;
-	margin-right: 0px;	
+		
 }
 
 
@@ -88,31 +87,57 @@
 	height: 200px;
   background-color: red;
 	margin-top: 0px;
-	margin-right: 0px;
 	margin-bottom: 16px;
-	margin-right: 0px;
+	
 
 }
 
 
 /* ------------- FOOTER ------------------ */
 
+
+/* FOOTER CONTAINER */
+
 .footer-container {
   background-color: #ccc;
   height: 100px;
+	position: static;
+  bottom: 0;
+  width: fluid;
+	padding: 16px 16px 16px 16px;
+}
+
+.solid-line-tb {
+	border-top: 4px solid black;
+	border-bottom: 4px solid black;
+	padding: 5px 0 5px 0;
+	height: 68px;
 }
 
 .solid-line {
-	border-top: 4px solid black;
-  border-bottom: 4px solid black;
-  margin: 0px 16px 0px 16px;
-  padding: 5px 0 5px 0;
-	display: flex;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+	padding: 5px 0 5px 0;
+	height: 100%;
 }
 
 .dashed-line {
-	display: flex;
+	border-top: 3px dashed black;
+	border-bottom: 3px dashed black;
+	padding: 5px 0 5px 0;
+	height: 100%;	
 }
+
+.inner-dashed-line {
+	border-right: 3px solid black; 
+	border-left: 3px solid black;
+	margin-right: 6px;
+	margin-left: 6px;
+	padding: 5px 0 5px 0;
+	height: 100%;
+}
+
+/* FOOTER CONTENT */
 
 .facebook-logo {
 	height: 50px; 
