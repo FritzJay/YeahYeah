@@ -168,7 +168,8 @@ top: 1px;
   background-color: red;
 	margin-top: 0px;
 	margin-bottom: 16px;
-	padding: 16px 16px 16px 16px
+	padding: 16px 16px 16px 16px;
+	
 }
 
 .form-horizontal .button-contact {
@@ -201,6 +202,9 @@ top: 1px;
 	align-content: flex-end;
 }
 
+.contact {
+	color: white;
+}
 
 /* ------------- FOOTER ------------------ */
 
