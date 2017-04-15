@@ -1,0 +1,262 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* ------------- HEADER --------------- */
+
+/* NAVIGATION */
+
+.navigation-container {
+  background-color: white;
+  padding: 16px 0 16px 0;
+}
+
+.navigation .outside-border {
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
+  margin: 0px 16px 0px 16px;
+  padding: 5px 0 5px 0;
+}
+
+.navigation .inside-border {
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+}
+
+.navigation .navbar-brand img {
+  height: 100%;
+  vertical-align: middle;
+}
+
+/* ------------- MAIN ------------------ */
+
+#main {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+/*  MAIN CONTENT */
+.main-content {
+  padding-bottom: 115px;
+  margin-top: 100px;
+  background-color: red;
+}
+
+.main-content h2 {
+  padding: 16px 0 5px 0;
+  margin-left: 16px;
+  color: white;
+  font-family: Arial;
+  border-bottom: 3px solid white;
+  width: 116px;
+}
+
+.main-content p {
+  color: white;
+  margin: 16px 0 0 16px;
+}
+
+.main-content .button-main {
+  background-color: transparent;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  border: 5px solid #ffffff;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 20px;
+  padding: 16px 31px;
+  text-decoration: none;
+  margin: 16px;
+}
+
+.main-content .button-main:hover {
+  background-color: white;
+  color: red;
+}
+
+.main-content .button-main:active {
+position: relative;
+top: 1px;
+}
+
+.page-break-container {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  background-color: white;
+}
+
+.page-break-container .page-break-border {
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  padding: 5px 0 5px 0;
+}
+
+/* INITIAL-FOOTER */
+
+.initial-footer-container {
+  background-color: #ffffff;
+  height: 100px;
+	position: static;
+  width: fluid;
+	padding: 16px 0px 16px 0px;
+}
+
+.solid-line-footer {
+	border-top: 4px solid black;
+	border-bottom: 4px solid black;
+	padding: 5px 0 5px 0;
+	height: 100%;
+}
+
+.solid-line {
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+	padding: 5px 0 5px 0;
+	height: 100%;
+}
+
+.dashed-line {
+	border-top: 3px dashed black;
+	border-bottom: 3px dashed black;
+	padding: 5px 0 5px 0;
+	height: 100%;
+}
+
+.inner-dashed-line {
+	border-right: 3px solid black;
+	border-left: 3px solid black;
+	margin-right: 6px;
+	margin-left: 6px;
+	padding: 5px 0 5px 0;
+	height: 100%;
+}
+
+.down-arrow {
+  text-align: center;
+  vertical-align: middle;
+  height: 100%;
+}
+
+/* SAMPLES */
+.samples div {
+	display: flex;
+  justify-content: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+/* SAMPLE-CONTENT */
+
+.sample-content {
+	height: 200px;
+  background-color: red;
+	margin-top: 0px;
+	margin-bottom: 16px;
+  flex: auto;
+}
+
+
+/* CONTACT-ROW */
+
+.contact {
+	flex: auto;
+	height: flex;
+  background-color: red;
+	margin-top: 0px;
+	margin-bottom: 16px;
+	padding: 16px 16px 16px 16px;
+	
+}
+
+.form-horizontal .button-contact {
+	background-color:transparent;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	border:4px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	padding:10px 24px;
+	text-decoration:none;
+}
+.form-horizontal .button-contact:hover {
+	background-color: white;
+  	color: red;
+}
+.form-horizontal .button-contact:active {
+	position:relative;
+	top:1px;
+}
+
+.form-horizontal .form-group {
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	align-content: flex-end;
+}
+
+.contact {
+	color: white;
+}
+
+/* ------------- FOOTER ------------------ */
+
+
+/* FOOTER CONTAINER */
+
+.footer-container {
+  background-color: #FFFFFF;
+  height: 100px;
+	position: static;
+  bottom: 0;
+  width: fluid;
+	padding: 0px 16px 16px 16px;
+}
+
+.solid-line-tb {
+	border-top: 4px solid black;
+	border-bottom: 4px solid black;
+	padding: 5px 0 5px 0;
+	height: 100%;
+}
+
+.solid-line {
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+	padding: 5px 0 5px 0;
+	height: 100%;
+}
+
+.dashed-line {
+	border-top: 3px dashed black;
+	border-bottom: 3px dashed black;
+	padding: 5px 0 5px 0;
+	height: 100%;
+}
+
+.inner-dashed-line {
+	border-right: 3px solid black;
+	border-left: 3px solid black;
+	margin-right: 6px;
+	margin-left: 6px;
+	padding: 5px 0 5px 0;
+	height: 100%;
+}
+
+/* FOOTER CONTENT */
+.solid-line h6 {
+  float: left;
+}
+
+.logo {
+  float: right;
+	height: 50px;
+	padding: 7px 7px 7px 7px;
+}
