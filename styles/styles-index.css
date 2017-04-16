@@ -89,89 +89,86 @@ ul.navigation-items {
 	position:relative;
 	top:1px;
 }
-/*Footer*/
-.text-justify {
-	margin-left: 20px;
-	margin-top: 20px;
-}
+/* ------------- FOOTER ------------------ */
 
-.footer-bar {
-	background-color: white;
-	padding: 0px 0px 16px 0px;
-	position: fixed;
+
+/* FOOTER CONTAINER */
+
+.footer-container {
+  background-color: #FFFFFF;
+  height: 100px;
+	position: static;
   bottom: 0;
-  width: 100%;
+  width: fluid;
+	padding: 0px 16px 16px 16px;
 }
 
-.footer {
-	border-bottom: 4px solid black;
+.solid-line-tb {
 	border-top: 4px solid black;
-	padding: 5px 0px 5px 0px;
-	display: flex;
-	height: 75px;
+	border-bottom: 4px solid black;
+	padding: 5px 0 5px 0;
+	height: 100%;
 }
 
-.footer .dotted-line {
-	border-top: 3px dashed black;
-	border-bottom: 3px dashed black;
-	margin: 0px 5px 0px 5px;
-	flex: 1 1 auto;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.footer .inner-dotted-line {
-	border-right: 3px solid black;
-	border-left: 3px solid black;
-	flex: 1 1 auto;
-	height: 80%;
-}
-.footer .solid-line {
+.solid-line {
 	border-top: 3px solid black;
 	border-bottom: 3px solid black;
-	flex: 7 1 auto;
+	padding: 5px 0 5px 0;
+	height: 100%;
+}
+
+.dashed-line {
+	border-top: 3px dashed black;
+	border-bottom: 3px dashed black;
+	padding: 5px 0 5px 0;
+	height: 100%;
+}
+
+.inner-dashed-line {
+	border-right: 3px solid black;
+	border-left: 3px solid black;
+	margin-right: 6px;
+	margin-left: 6px;
+	padding: 5px 0 5px 0;
+	height: 100%;
+}
+
+/* FOOTER CONTENT */
+
+/* CENTER BOX */
+.inner-dashed-line {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .number {
-	font-size: 175%;
+  font-size: 27px;
+  flex: 1 1 auto;
+  font-weight: bold;
 }
 
-.year{
-	font-size: 50%;
-	font-weight: bold;
+.year {
+  font-size: 12px;
 }
 
-
-.facebook-logo {
-	height: 50px;
-	padding: 7px 20px 7px 7px;
+.footer-parent {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  float:left;
 }
 
-.twitter-logo {
-	height: 50px;
-	padding: 7px 7px 7px 7px;
+.solid-line h6 {
+  float: left;
+  line-height: 20px;
+  padding-left: 7px;
 }
 
-.number {
-	font-size: 175%;
-}
-
-.year{
-	font-size: 50%;
-	font-weight: bold;
-}
-
-
-.facebook-logo {
-	height: 50px;
-	padding: 7px 20px 7px 7px;
-}
-
-.twitter-logo {
+.logo {
+  float: right;
 	height: 50px;
 	padding: 7px 7px 7px 7px;
 }
-/* Tablet View */
-
-/* Mobile View */
