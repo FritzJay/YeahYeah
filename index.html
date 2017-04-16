@@ -1,63 +1,99 @@
 <!doctype html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Say YeahYeah</title>
-<link rel="stylesheet" href="styles/styles-index.css" />
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-</head>
-<body>
-<!-- Header -->
-<div class="row">
-	<header>
-		<section class="navigation-bar">
-			<nav class="site-nav">
-				<div class="container-fluid">
-					<a class="site-logo">
-					<img src="http://www.cleardesign.com.au/cms_uploads/images/271_clear_yeah_.jpg" width="50px" height="30px">
-					<img src="http://www.cleardesign.com.au/cms_uploads/images/271_clear_yeah_.jpg" width="50px" height="30px">
-					</a>
-					<div class="nav text-right row">
-						<div class="dotted-line">
-						</div>
-						<div class="solid-line">
-						</div>
-						<div class="dotted-line">
-						</div>
-					</div>
-					<div class="navigation-items">
-						<ul class="list-inline">
-							<li><a href="work.html">Work</a></li>
-							<li><a href="services.html">Services</a></li>
-							<li><a href="contact.html">Contact</a></li>
-							<li><a href="company.html">Company</a></li>
-							<li><a href="showroom.html">Showroom</a></li>
-						</ul>
-					</div>
-				</div>
-			</nav>
-		</section>
-	</header>
-</div>
 
-<!-- Main Content -->
-<div class="row">
-	<main>
-		<section class="intro">
-			<div class="main">
-					<div style="width: 25%">
-						<div class="intro-content">
-							<p class="text-justify" style="font-size: 100%"><span style="font-size: 200%">Say <span style="font-weight:bold">"Yeah Yeah"</span></span> to making the internet better one website at a time.
-							</p>
-							<p>
-							<a href="contact.html" class="gs-button">Get Started</a>
-							</p>
-						</div>
-					</div>
-				</div>
-		</section>
-	</main>
-</div>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Say YeahYeah</title>
+
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="styles/style.css" />
+</head>
+
+<body>
+<div class="container-fluid">
+
+  <!-- ============= HEADER ============= -->
+  <header class="row">
+
+      <nav class="navigation navigation-container navbar navbar-fixed-top">
+        <div class="outside-border">
+          <div class="inside-border container-fluid">
+
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+                <span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
+              </button>
+              <a class="navbar-brand" href="#">
+                <img src="http://www.cleardesign.com.au/cms_uploads/images/271_clear_yeah_.jpg" />
+              </a>
+            </div>
+
+            <ul class="hidden-xs nav navbar-nav navbar-right">
+              <li><a href="work.html">Work</a></li>
+              <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Services <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li><a class="dropdown-item" href="#">Design</a></li>
+                    <li><a class="dropdown-item" href="#">Develop</a></li>
+                    <li><a class="dropdown-item" href="#">Branding</a></li>
+                    <li><a class="dropdown-item" href="#">Consulting</a></li>
+                    <li><a class="dropdown-item" href="#">Implimenting</a></li>
+                  </ul>
+              </li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="company.html">Company</a></li>
+              <li><a href="showroom.html">Showroom</a></li>
+            </ul>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navabar-collapse" id="navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="work.html">Work</a></li>
+                  <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Services <span class="caret"></span>
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <li><a class="dropdown-item" href="#">Design</a></li>
+                        <li><a class="dropdown-item" href="#">Develop</a></li>
+                        <li><a class="dropdown-item" href="#">Branding</a></li>
+                        <li><a class="dropdown-item" href="#">Consulting</a></li>
+                        <li><a class="dropdown-item" href="#">Implimenting</a></li>
+                      </ul>
+                  </li>
+    							<li><a href="contact.html">Contact</a></li>
+    							<li><a href="company.html">Company</a></li>
+    							<li><a href="showroom.html">Showroom</a></li>
+                </ul>
+            </div> <!-- navbar-collapse -->
+
+          </div>
+        </div>
+      </nav>
+    </header>
+
+  <!-- ============ Main =============== -->
+  <main id="main" class="col-12">
+    <section class="main-content row">
+      <div class="col-12">
+        <div class="row">
+          <div class="container-left col-xs-12 col-sm-6">
+            <h2>Say <b><q>YeahYeah,</q></b> to making the internet better one website at a time.</h2>
+            <a href="contact.html" class="button-main">Get Started</a>
+          </div>
+          <div class="container-middle">
+          </div>
+          <div class="main-img container-right text-center col-xs-12 col-sm-6">
+            <img src="imgs/food-dude.png" alt="food" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 
   <!-- ============ Footer ============= -->
 
@@ -67,7 +103,7 @@
 
         <div class="solid-line col-xs-5">
           <div class="footer-parent">
-            <h6>@Yeah Yeah Group <br /> Seattle, WA.</h6>
+            <h6>@Yeah Yeah Group <br /> Seattle, WA</h6>
           </div>
         </div>
 
@@ -84,10 +120,10 @@
           <div class="footer-parent">
             <h6>No.001</h6>
           </div>
-          <a href="#">
+          <a href="https://www.facebook.com/YeahYeah-447296225606012/">
             <img class="logo" src="svgs\facebook.svg" alt="facebook" />
           </a>
-          <a href="#">
+          <a href="https://twitter.com/socialyeahyeah">
             <img class="logo" src="svgs\twitter.svg" alt="facebook" />
           </a>
         </div>
@@ -96,6 +132,8 @@
     </div>
   </footer>
 </div>
+<!-- Our Script -->
+<script src="scripts/script.js"></script>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <!-- Latest compiled and minified JavaScript -->
