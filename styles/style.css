@@ -36,9 +36,9 @@
 
 /*  MAIN CONTENT */
 .main-content {
-  padding-bottom: 115px;
+  background-image: url("imgs/food.png");
   margin-top: 100px;
-  background-color: red;
+  height: 77vh;
 }
 
 .main-content h2 {
@@ -137,10 +137,10 @@ top: 1px;
   text-align: center;
   vertical-align: middle;
   height: 500%;
-  -webkit-transition: all 0.15s cubic-bezier(.66,-1.21,.83,.67);
-  -moz-transition: all 0.15s cubic-bezier(.66,-1.1,.02,.97);
-  -o-transition: all 0.15s cubic-bezier(.66,-1.1,.02,.97);
-  transition: all 0.15s cubic-bezier(.66,-1.1,.02,.97);
+  -webkit-transition: all 0.2s cubic-bezier(.66,-1.21,.83,.67);
+  -moz-transition: all 0.2s cubic-bezier(.66,-1.1,.02,.97);
+  -o-transition: all 0.2s cubic-bezier(.66,-1.1,.02,.97);
+  transition: all 0.2s cubic-bezier(.66,-1.1,.02,.97);
   transition-delay: 9s;
   -webkit-transition-delay: 9s;
   -moz-transition-delay: 9s;

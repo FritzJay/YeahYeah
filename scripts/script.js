@@ -1,9 +1,9 @@
 window.onload = function () {
   // ============= Arrow Jump ================
   //Get arrow element
-   const arrow = document.getElementById("arrow");
-   arrowJump();
-   //Makes arrow jump
+  const arrow = document.getElementById("arrow");
+  arrowJump();
+  //Makes arrow jump
   function arrowJump () {
     arrow.classList.add('jump');
   }
