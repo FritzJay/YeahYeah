@@ -289,3 +289,12 @@ top: 1px;
 	height: 50px;
 	padding: 7px 7px 7px 7px;
 }
+
+.logo:hover {
+  opacity: 0.54;
+}
+
+.logo:active {
+  position: relative;
+  top: 3px;
+}
