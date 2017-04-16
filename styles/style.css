@@ -136,7 +136,20 @@ top: 1px;
 .down-arrow {
   text-align: center;
   vertical-align: middle;
-  height: 100%;
+  height: 500%;
+  -webkit-transition: all 0.15s cubic-bezier(.66,-1.21,.83,.67);
+  -moz-transition: all 0.15s cubic-bezier(.66,-1.1,.02,.97);
+  -o-transition: all 0.15s cubic-bezier(.66,-1.1,.02,.97);
+  transition: all 0.15s cubic-bezier(.66,-1.1,.02,.97);
+  transition-delay: 9s;
+  -webkit-transition-delay: 9s;
+  -moz-transition-delay: 9s;
+  -o-transition-delay: 9s;
+}
+
+.down-arrow.jump {
+  position: relative;
+  transform: translateY(3px);
 }
 
 /* SAMPLES */
@@ -159,6 +172,9 @@ top: 1px;
   flex: auto;
 }
 
+.sample-spacer {
+  height: 16px;
+}
 
 /* CONTACT-ROW */
 
