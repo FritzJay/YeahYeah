@@ -86,15 +86,17 @@ top: 1px;
 }
 
 .main-img {
-  display:inline;
+  display: inline;
   text-align: right;
   position:relative;
-  bottom: 0;
+  padding-bottom: 16px;
+  overflow: hidden;
 }
 
 .main-img img {
   max-width: 100%;
   height: auto;
+  margin-bottom: 20px
 }
 
 /* INITIAL-FOOTER */
