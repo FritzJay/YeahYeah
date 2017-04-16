@@ -51,6 +51,11 @@
   font-family: Arial;
 }
 
+.main-content p {
+  color: white;
+  margin: 16px 0 0 16px;
+}
+
 .main-content .button-main {
   background-color: transparent;
   -moz-border-radius: 8px;
