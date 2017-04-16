@@ -40,14 +40,9 @@
   background-repeat: no-repeat;
   background-position: right bottom;
   margin-top: 100px;
+  padding: 3vh 7vw 3vh 7vw;
   height: 77vh;
-  padding: 0 7vw 0 7vw;
-  position: relative;
-}
-
-.main-content img {
-  max-width: 80%;
-  height: auto;
+  overflow: hidden;
 }
 
 .main-content h2 {
@@ -90,13 +85,23 @@ position: relative;
 top: 1px;
 }
 
+.main-img {
+  display:inline;
+  text-align: right;
+  position:relative;
+  bottom: 0;
+}
+
+.main-img img {
+  max-width: 100%;
+  height: auto;
+}
 
 /* INITIAL-FOOTER */
 
 .initial-footer-container {
   background-color: #ffffff;
   height: 100px;
-	position: static;
   width: fluid;
 	padding: 16px 0px 16px 0px;
 }
@@ -242,7 +247,6 @@ top: 1px;
 .footer-container {
   background-color: #FFFFFF;
   height: 100px;
-	position: static;
   bottom: 0;
   width: fluid;
 	padding: 0px 16px 16px 16px;
