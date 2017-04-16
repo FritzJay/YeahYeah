@@ -5,3 +5,9 @@ Change 'get started' button size when screen size changes
 Adjust padding-left on Main-content
 
 Make main image float bottom right
+
+
+
+================== Index/Home ====================
+
+1. Scale the footer and header so that all content is on one screen.
