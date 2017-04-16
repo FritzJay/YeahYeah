@@ -36,9 +36,18 @@
 
 /*  MAIN CONTENT */
 .main-content {
-  background-image: url("imgs/food.png");
+  background-color: red;
+  background-repeat: no-repeat;
+  background-position: right bottom;
   margin-top: 100px;
   height: 77vh;
+  padding: 0 7vw 0 7vw;
+  position: relative;
+}
+
+.main-content img {
+  max-width: 80%;
+  height: auto;
 }
 
 .main-content h2 {
@@ -81,17 +90,6 @@ position: relative;
 top: 1px;
 }
 
-.page-break-container {
-  margin-top: 16px;
-  margin-bottom: 16px;
-  background-color: white;
-}
-
-.page-break-container .page-break-border {
-  border-top: 3px solid black;
-  border-bottom: 3px solid black;
-  padding: 5px 0 5px 0;
-}
 
 /* INITIAL-FOOTER */
 
@@ -152,7 +150,21 @@ top: 1px;
   transform: translateY(3px);
 }
 
-/* SAMPLES */
+/* PAGE BREAK */
+
+.page-break-container {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  background-color: white;
+}
+
+.page-break-container .page-break-border {
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  padding: 5px 0 5px 0;
+}
+
+/* ------------- SAMPLES -------------- */
 .samples div {
 	display: flex;
   justify-content: center;
