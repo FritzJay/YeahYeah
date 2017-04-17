@@ -9,7 +9,7 @@
 
   <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="styles/styles-work.css" />
+  <link rel="stylesheet" type="text/css" href="styles/style.css" />
 </head>
 
 <body>
@@ -31,6 +31,24 @@
               </a>
             </div>
 
+            <ul class="hidden-xs nav navbar-nav navbar-right">
+              <li><a href="work.html">Work</a></li>
+              <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Services <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li><a class="dropdown-item" href="#">Design</a></li>
+                    <li><a class="dropdown-item" href="#">Develop</a></li>
+                    <li><a class="dropdown-item" href="#">Branding</a></li>
+                    <li><a class="dropdown-item" href="#">Consulting</a></li>
+                    <li><a class="dropdown-item" href="#">Implimenting</a></li>
+                  </ul>
+              </li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="company.html">Company</a></li>
+              <li><a href="showroom.html">Showroom</a></li>
+            </ul>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navabar-collapse" id="navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
@@ -61,15 +79,24 @@
   <!-- ============ Main =============== -->
   <main id="main" class="col-12">
     <section class="main-content row">
-      <div class="col-xs-8 col-sm-6 col-md-5 col-xs-offset-1">
-        <h2>Services</h2>
-        <p>
-          We can do a couple cool things. Check it out!
-        </p>
-        <a href="contact.html" class="button-main">Get Started</a>
+      <div class="col-12">
+        <div class="row">
+          <div class="container-left col-xs-10 col-sm-6">
+            <h1><span>Work</span></h1>
+            <p>
+              We work while you work. Together we help showcase the ideas, brand, and identity of your company. Here is where we showcase ours. Poke around and see what we have done.  
+            </p>
+            <a href="contact.html" class="button-main">Get Started</a>
+          </div>
+          <div class="container-middle">
+          </div>
+          <div class="main-img container-right text-center col-xs-12 col-sm-6">
+            <img src="imgs/food-dude.png" alt="food" />
+          </div>
+        </div>
       </div>
     </section>
-    
+
 <!-- ============ Initial Footer ============= -->
 
     <section class="initial-footer">
@@ -79,7 +106,7 @@
           </div>
           <div class="dashed-line col-xs-2">
             <div class="inner-dashed-line text-center">
-              <img class="down-arrow image-responsive" src="svgs\ic_keyboard_arrow_down_black_48px.svg" alt="down arrow" />
+              <img id="arrow" class="down-arrow image-responsive" src="svgs\ic_keyboard_arrow_down_black_48px.svg" alt="down arrow" />
             </div>
           </div>
           <div class="solid-line col-xs-5">
@@ -87,7 +114,7 @@
         </div>
       </div>
     </section>
-    
+
 <!-- ============ Samples ============= -->
 
     <section class="samples row">
@@ -96,18 +123,26 @@
           <img src="https://kuboayako.s3.amazonaws.com/uploads/product_image/image/15/data_uri_upload20160410-2181-14sw2zy.jpeg" class="img-responsive" alt="Responsive image">
         </a>
       </div>
+
+      <div class="sample-spacer visible-xs-* hidden-sm hidden-md hidden-lg">
+      </div>
+
       <div id="sample2" class="col-sm-4">
         <a class="sample-2-img" href="#">
           <img src="https://kuboayako.s3.amazonaws.com/uploads/product_image/image/12/data_uri_upload20160410-2181-pgpwhd.jpeg" class="img-responsive" alt="Responsive image">
         </a>
       </div>
+
+      <div class="sample-spacer visible-xs-* hidden-sm hidden-md hidden-lg">
+      </div>
+
       <div id="sample3" class="col-sm-4">
         <a class="sample-3-img" href="#">
           <img src="https://kuboayako.s3.amazonaws.com/uploads/product_image/image/7/data_uri_upload20160410-2181-1hnbwij.jpeg" class="img-responsive" alt="Responsive image">
         </a>
       </div>
     </section>
-    
+
 <!-- ============ Page Break ============= -->
 
     <div class="page-break-container row">
@@ -118,9 +153,12 @@
   <!-- ============ Sample Content ============= -->
    
     <section class="sample-content row">
-
+    	<div class="sample-text col-xs-12">
+    		<h1 class="past-header"><span>Past Projects</span></h1>
+    		<h4 class="past-paragraph">It's hard starting out. We hope you can help us add your name to the list.</h4>
+    	</div>
     </section>
-    
+
 <!-- ============ Page Break ============= -->
 
 
@@ -128,16 +166,16 @@
       <div class="page-break-border col-12">
       </div>
     </div>
-    
+
 <!-- ============ Contact ============= -->
-   
+
     <section class="contact row">
     	<div class="container-left col-xs-12 col-sm-6">
     		<h1 >Like what you see?</h1>
     		<h4>Get in touch and say, <q>Yeah Yeah.</q></h4>
     	</div>
     	<div class="container-middle col-xs-12 col-sm-6">
-    		
+
     	</div>
     	<div class="container-right col-xs-12 col-sm-6">
     		<form method="post" class="form-horizontal">
@@ -169,34 +207,38 @@
       <div class="solid-line-tb col-xs-12">
 
         <div class="solid-line col-xs-5">
-          <h6>@Yeah Yeah Group</h6>
-          <br />
-          <h6>Seattle, WA.</h6>
+          <div class="footer-parent">
+            <h6>@Yeah Yeah Group <br /> Seattle, WA.</h6>
+          </div>
         </div>
 
         <div class="dashed-line col-xs-2">
           <div class="inner-dashed-line">
-            <div>
-              <dl class="text-center">
-                <dt class="number">
-                  <strong>1</strong>
-                </dt>
-                <dd class="year">2017</dd>
-              </dl>
+            <div class="number">
+              2
             </div>
+            <div class="year">2017</div>
           </div>
         </div>
 
         <div class="solid-line col-xs-5">
-          <h6>No.001</h6>
-          <img class="logo" src="svgs\facebook.svg" alt="facebook" />
-          <img class="logo" src="svgs\twitter.svg" alt="facebook" />
+          <div class="footer-parent">
+            <h6>No.001</h6>
+          </div>
+          <a href="https://www.facebook.com/YeahYeah-447296225606012/">
+            <img class="logo" src="svgs\facebook.svg" alt="facebook" />
+          </a>
+          <a href="https://twitter.com/socialyeahyeah">
+            <img class="logo" src="svgs\twitter.svg" alt="facebook" />
+          </a>
         </div>
 
       </div>
     </div>
   </footer>
 </div>
+<!-- Our Script -->
+<script src="scripts/script.js"></script>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <!-- Latest compiled and minified JavaScript -->
