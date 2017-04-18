@@ -36,7 +36,7 @@
 
 /*  MAIN CONTENT */
 .main-content {
-  background-color: red;
+  background-color: #FF2E2E;
   background-repeat: no-repeat;
   background-position: right bottom;
   margin-top: 100px;
@@ -44,16 +44,11 @@
   overflow: hidden;
 }
 
-.main-content h2 {
+.main-content h1 {
 	margin: 32px 32px 16px 32px;
   padding: 16px 0 16px 0;
   color: white;
   font-family: Arial;
-}
-
-.main-content p {
-  color: white;
-  margin: 16px 0 0 16px;
 }
 
 .main-content .button-main {
@@ -61,7 +56,7 @@
   -moz-border-radius: 8px;
   -webkit-border-radius: 8px;
   border-radius: 8px;
-  border: 5px solid #ffffff;
+  border: 3px solid #ffffff;
   display: inline-block;
   cursor: pointer;
   color: #ffffff;
