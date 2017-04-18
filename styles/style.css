@@ -36,29 +36,19 @@
 
 /*  MAIN CONTENT */
 .main-content {
-  background-color: red;
+  background-color: #FF2E2E;
   background-repeat: no-repeat;
   background-position: right bottom;
   margin-top: 100px;
-  padding: 3vh 7vw 3vh 7vw;
-  height: 77vh;
+  height: auto;
   overflow: hidden;
 }
 
 .main-content h1 {
-  padding: 16px 0 5px 0;
+	margin: 32px 32px 16px 32px;
+  padding: 16px 0 16px 0;
   color: white;
   font-family: Arial;
-}
-
-.main-content h1 span {
-	 display:inline-block;
-    border-bottom: 3px solid #ffffff;
-    padding-bottom: 16px;
-}
-.main-content p {
-  color: white;
-  margin: 16px 0 0 0px;
 }
 
 .main-content .button-main {
@@ -74,7 +64,7 @@
   font-size: 16px;
   padding: 10px 24px;
   text-decoration: none;
-  margin: 16px 0px 0px 0px;
+	margin-left: 32px;
 }
 
 .main-content .button-main:hover {
@@ -95,165 +85,8 @@ top: 1px;
 }
 
 .main-img img {
-  max-width: 100%;
+  max-width: 75%;
   height: auto;
-}
-
-/* INITIAL-FOOTER */
-
-.initial-footer-container {
-  background-color: #ffffff;
-  height: 100px;
-  width: fluid;
-	padding: 16px 0px 16px 0px;
-}
-
-.solid-line-footer {
-	border-top: 4px solid black;
-	border-bottom: 4px solid black;
-	padding: 5px 0 5px 0;
-	height: 100%;
-}
-
-.solid-line {
-	border-top: 3px solid black;
-	border-bottom: 3px solid black;
-	padding: 5px 0 5px 0;
-	height: 100%;
-}
-
-.dashed-line {
-	border-top: 3px dashed black;
-	border-bottom: 3px dashed black;
-	padding: 5px 0 5px 0;
-	height: 100%;
-}
-
-.inner-dashed-line {
-	border-right: 3px solid black;
-	border-left: 3px solid black;
-	margin-right: 6px;
-	margin-left: 6px;
-	padding: 5px 0 5px 0;
-	height: 100%;
-}
-
-.down-arrow {
-  text-align: center;
-  vertical-align: middle;
-  height: 500%;
-  -webkit-transition: all 0.2s cubic-bezier(.66,-1.21,.83,.67);
-  -moz-transition: all 0.2s cubic-bezier(.66,-1.1,.02,.97);
-  -o-transition: all 0.2s cubic-bezier(.66,-1.1,.02,.97);
-  transition: all 0.2s cubic-bezier(.66,-1.1,.02,.97);
-  transition-delay: 9s;
-  -webkit-transition-delay: 9s;
-  -moz-transition-delay: 9s;
-  -o-transition-delay: 9s;
-}
-
-.down-arrow.jump {
-  position: relative;
-  transform: translateY(3px);
-}
-
-/* PAGE BREAK */
-
-.page-break-container {
-  margin-top: 16px;
-  margin-bottom: 16px;
-  background-color: white;
-}
-
-.page-break-container .page-break-border {
-  border-top: 3px solid black;
-  border-bottom: 3px solid black;
-  padding: 5px 0 5px 0;
-}
-
-/* ------------- SAMPLES -------------- */
-.samples div {
-	display: flex;
-  justify-content: center;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	padding-right: 0px;
-	padding-left: 0px;
-}
-
-/* SAMPLE-CONTENT */
-
-.sample-content {
-	height: flex;
-  background-color: red;
-	margin-top: 0px;
-	margin-bottom: 16px;
-  flex: auto;
-}
-
-
-.past-header {
-	padding-bottom: 16px;
-	color: white;
-	text-align: center;
-}
-
-.past-header span {
-	 display:inline-block;
-    border-bottom: 3px solid #ffffff;
-    padding-bottom: 16px;
-}
-
-.past-paragraph {
-	padding-bottom: 16px;
-	color: white;
-	text-align: center;
-}
-
-/* CONTACT-ROW */
-
-.contact {
-	flex: auto;
-	height: flex;
-  background-color: red;
-	margin-top: 0px;
-	margin-bottom: 16px;
-	padding: 16px 16px 16px 16px;
-
-}
-
-.form-horizontal .button-contact {
-	background-color:transparent;
-	-moz-border-radius:8px;
-	-webkit-border-radius:8px;
-	border-radius:8px;
-	border:3px solid #ffffff;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:16px;
-	padding:10px 24px;
-	text-decoration:none;
-}
-.form-horizontal .button-contact:hover {
-	background-color: white;
-  	color: red;
-}
-.form-horizontal .button-contact:active {
-	position:relative;
-	top:1px;
-}
-
-.form-horizontal .form-group {
-	color: white;
-	margin-left: auto;
-	margin-right: auto;
-	align-content: flex-end;
-}
-
-.contact {
-	color: white;
 }
 
 /* ------------- FOOTER ------------------ */
@@ -266,7 +99,9 @@ top: 1px;
   height: 100px;
   bottom: 0;
   width: fluid;
-	padding: 0px 16px 16px 16px;
+padding: 0px 16px 16px 16px;
+	margin-top: 16px;
+	position: static;
 }
 
 .solid-line-tb {
