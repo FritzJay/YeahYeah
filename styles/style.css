@@ -86,9 +86,6 @@ top: 1px;
 }
 
 .main-img {
-  display: inline;
-  text-align: right;
-  position:relative;
   padding-bottom: 16px;
   overflow: hidden;
 }
@@ -96,7 +93,8 @@ top: 1px;
 .main-img img {
   max-width: 100%;
   height: auto;
-  margin-bottom: 20px
+  float: right;
+  vertical-align: bottom;
 }
 
 /* INITIAL-FOOTER */
