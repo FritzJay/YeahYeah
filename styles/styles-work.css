@@ -36,7 +36,7 @@
 
 /*  MAIN CONTENT */
 .main-content {
-  background-color: #3F88C5;
+  background-color: #A9E86A;
   background-repeat: no-repeat;
   background-position: right bottom;
   margin-top: 100px;
@@ -81,7 +81,7 @@
 
 .main-content .button-main:hover {
   background-color: white;
-  color: #3F88C5;
+  color: #A9E86A;
 }
 
 .main-content .button-main:active {
@@ -187,7 +187,7 @@ top: 1px;
 
 .sample-content {
 	height: flex;
-  background-color: #3F88C5;
+  background-color: #A9E86A;
 	margin-top: 0px;
 	margin-bottom: 16px;
   flex: auto;
@@ -217,7 +217,7 @@ top: 1px;
 .contact {
 	flex: auto;
 	height: flex;
-  background-color: #3F88C5;
+  background-color: #A9E86A;
 	margin-top: 0px;
 	margin-bottom: 16px;
 	padding: 16px 16px 16px 16px;
@@ -240,7 +240,7 @@ top: 1px;
 }
 .form-horizontal .button-contact:hover {
 	background-color: white;
-  	color: #3F88C5;
+  	color: #A9E86A;
 }
 .form-horizontal .button-contact:active {
 	position:relative;
