@@ -55,11 +55,9 @@ ul.navigation-items {
 
 .main {
 	color: white;
-	background-color: red;
-	height: 400px;
+	background-color: #FF2E2E;
+	height: auto;
 	padding: 20px 0px 20px 20px;
-	background-color: red;
-	height: 400px;
 }
 
 .text-justify {
