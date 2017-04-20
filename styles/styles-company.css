@@ -36,7 +36,7 @@
 
 /*  MAIN CONTENT */
 .main-content {
-  background-color: #FFE81E;
+  background-color: #393D3F;
   background-repeat: no-repeat;
   background-position: right bottom;
   margin-top: 100px;
@@ -56,10 +56,11 @@
     border-bottom: 3px solid #ffffff;
     padding-bottom: 12px;
 }
-
-.main-content h2 {
-	color: white;
-	padding-bottom: 36px;
+.main-content p {
+  color: white;
+  margin: 16px 0 0 0px;
+	font-family: Arial;
+	font-size: 150%; 
 }
 
 .main-img {
@@ -132,60 +133,85 @@
   transform: translateY(3px);
 }
 
-/* CONTACT-ROW */
+/* Profile */
 
-.our-contact {
-	 background-color: #FFE81E;
-	height: 100px;
-	display: flex;
-	flex-wrap: nowrap;
-}
-
-.their-contact {
-	background-color: #FFE81E;
-	height: 100px;
-	display: flex;
-	flex-wrap: nowrap;
-}
-
-.company-contact {
-	flex: auto;
+.profile-container1 {
 	height: flex;
-  background-color: #FFE81E;
+	display: flex;
+	background-color: #FFFFFF;
+	padding-top: 50px;
+	justify-content: center;
+	
+}
+
+.profile-container2 {
+	height: flex;
+	display: flex;
+	background-color: #FFFFFF;
+	padding-top: 50px;
+	justify-content: center;
+	
+}
+
+.profile-text-2 {
+	height: flex;
+	min-height: 150px;
+	background-color: #393D3F;
+	padding: 20px 20px 20px 20px;
+	color: white;
+	text-align: center;
+}
+
+.profile-text-1 {
+	height: flex;
+	min-height: 150px;
+	background-color: #393D3F;
+	padding: 20px 20px 20px 20px;
+	color: white;
+	text-align: center;
+}
+
+/* PAGE BREAK */
+
+.page-break-container {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  background-color: white;
+}
+
+.page-break-container .page-break-border {
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  padding: 5px 0 5px 0;
+}
+
+/* SAMPLE-CONTENT */
+
+.sample-content {
+	height: flex;
+  background-color: #393D3F;
 	margin-top: 0px;
 	margin-bottom: 16px;
-	padding: 16px 16px 16px 16px;
-	color: white;
+  flex: auto;
 }
 
-.form-horizontal .button-contact {
-	background-color:transparent;
-	-moz-border-radius:8px;
-	-webkit-border-radius:8px;
-	border-radius:8px;
-	border:3px solid #ffffff;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:16px;
-	padding:10px 24px;
-	text-decoration:none;
-}
-.form-horizontal .button-contact:hover {
-	background-color: white;
-  	color: #A9E86A;
-}
-.form-horizontal .button-contact:active {
-	position:relative;
-	top:1px;
+
+.past-header {
+	padding-bottom: 16px;
+	color: white;
+	text-align: center;
 }
 
-.form-horizontal .form-group {
+.past-header span {
+	 display:inline-block;
+    border-bottom: 3px solid #ffffff;
+    padding-bottom: 16px;
+}
+
+.past-paragraph {
+	padding-bottom: 16px;
 	color: white;
-	margin-left: auto;
-	margin-right: auto;
-	align-content: flex-end;
+	text-align: center;
 }
 
 /* ------------- FOOTER ------------------ */
