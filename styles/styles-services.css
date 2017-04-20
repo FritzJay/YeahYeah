@@ -36,7 +36,7 @@
 
 /*  MAIN CONTENT */
 .main-content {
-  background-color: #A9E86A;
+  background-color: #3F88C5;
   background-repeat: no-repeat;
   background-position: right bottom;
   margin-top: 100px;
@@ -81,7 +81,7 @@
 
 .main-content .button-main:hover {
   background-color: white;
-  color: #A9E86A;
+  color: #3F88C5;
 }
 
 .main-content .button-main:active {
@@ -174,20 +174,37 @@ top: 1px;
 }
 
 /* ------------- SAMPLES -------------- */
-.samples div {
-	display: flex;
-  justify-content: center;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	padding-right: 0px;
-	padding-left: 0px;
+
+.service-container {
+	background-color: #3F88C5;
+	text-align: center;
+	justify-content: center;
+	padding: 16px 16px 16px 16px;
+	margin-bottom: 16px;
 }
 
+.service-design-image {
+	
+	max-height: 200px;
+	width: auto;
+}
+.service-title span {
+	color: white;
+    border-bottom: 3px solid #ffffff;
+    padding-bottom: 8px;
+}
+
+.service-paragraph {
+	margin-top: 20px;
+	margin-left: 36px;
+	margin-right: 36px;
+	color: white;
+}
 /* SAMPLE-CONTENT */
 
 .sample-content {
 	height: flex;
-  background-color: #A9E86A;
+  background-color: #3F88C5;
 	margin-top: 0px;
 	margin-bottom: 16px;
   flex: auto;
@@ -210,6 +227,8 @@ top: 1px;
 	padding-bottom: 16px;
 	color: white;
 	text-align: center;
+	margin-left: 36px;
+	margin-right: 36px;
 }
 
 /* CONTACT-ROW */
@@ -217,7 +236,7 @@ top: 1px;
 .contact {
 	flex: auto;
 	height: flex;
-  background-color: #A9E86A;
+  background-color: #3F88C5;
 	margin-top: 0px;
 	margin-bottom: 16px;
 	padding: 16px 16px 16px 16px;
@@ -240,7 +259,7 @@ top: 1px;
 }
 .form-horizontal .button-contact:hover {
 	background-color: white;
-  	color: #A9E86A;
+  	color: #3F88C5;
 }
 .form-horizontal .button-contact:active {
 	position:relative;
@@ -349,3 +368,5 @@ top: 1px;
   position: relative;
   top: 3px;
 }
+
+
