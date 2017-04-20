@@ -133,29 +133,21 @@
 }
 
 /* CONTACT-ROW */
-
-.our-contact {
-	 background-color: #FFE81E;
-	height: 100px;
-	display: flex;
-	flex: auto;
-}
-
-.their-contact {
-	background-color: #FFE81E;
-	height: 100px;
-	display: flex;
-	flex: auto;
-}
-
 .company-contact {
-	flex: auto;
-	height: flex;
-  background-color: #FFE81E;
-	margin-top: 0px;
 	margin-bottom: 16px;
-	padding: 16px 16px 16px 16px;
 	color: white;
+}
+
+.contact-info {
+  background-color: #FFE81E;
+  padding: 16px;
+  margin-bottom: 15px;
+}
+
+.contact-form {
+  background-color: #FFE81E;
+  padding: 16px;
+  margin-bottom: 15px;
 }
 
 .form-horizontal .button-contact {
