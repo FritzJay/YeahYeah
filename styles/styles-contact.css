@@ -134,28 +134,23 @@
 
 /* CONTACT-ROW */
 
-.our-contact {
-	 background-color: #FFE81E;
-	height: 100px;
-	display: flex;
-	flex-wrap: nowrap;
-}
-
-.their-contact {
-	background-color: #FFE81E;
-	height: 100px;
-	display: flex;
-	flex-wrap: nowrap;
-}
-
 .company-contact {
-	flex: auto;
-	height: flex;
   background-color: #FFE81E;
-	margin-top: 0px;
 	margin-bottom: 16px;
-	padding: 16px 16px 16px 16px;
 	color: white;
+}
+
+.contact-info {
+  padding: 16px;
+}
+
+.contact-spacer {
+  background-color: white;
+  height: 16px;
+}
+
+.contact-form {
+  padding: 16px;
 }
 
 .form-horizontal .button-contact {
@@ -172,10 +167,12 @@
 	padding:10px 24px;
 	text-decoration:none;
 }
+
 .form-horizontal .button-contact:hover {
 	background-color: white;
   	color: #A9E86A;
 }
+
 .form-horizontal .button-contact:active {
 	position:relative;
 	top:1px;
