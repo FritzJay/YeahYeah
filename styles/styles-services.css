@@ -174,15 +174,32 @@ top: 1px;
 }
 
 /* ------------- SAMPLES -------------- */
-.samples div {
-	display: flex;
-  justify-content: center;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	padding-right: 0px;
-	padding-left: 0px;
+
+.service-container {
+	background-color: #3F88C5;
+	text-align: center;
+	justify-content: center;
+	padding: 16px 16px 16px 16px;
+	margin-bottom: 16px;
 }
 
+.service-design-image {
+	
+	max-height: 200px;
+	width: auto;
+}
+.service-title span {
+	color: white;
+    border-bottom: 3px solid #ffffff;
+    padding-bottom: 8px;
+}
+
+.service-paragraph {
+	margin-top: 20px;
+	margin-left: 36px;
+	margin-right: 36px;
+	color: white;
+}
 /* SAMPLE-CONTENT */
 
 .sample-content {
@@ -210,6 +227,8 @@ top: 1px;
 	padding-bottom: 16px;
 	color: white;
 	text-align: center;
+	margin-left: 36px;
+	margin-right: 36px;
 }
 
 /* CONTACT-ROW */
