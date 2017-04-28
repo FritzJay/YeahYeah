@@ -60,7 +60,7 @@
   color: white;
   margin: 16px 0 0 0px;
 	font-family: Arial;
-	font-size: 150%; 
+	font-size: 150%;
 }
 
 .main-content .button-main {
@@ -183,6 +183,10 @@ top: 1px;
 	padding-left: 0px;
 }
 
+.samples img {
+    box-shadow: 0 2px 2px #888;
+}
+
 /* SAMPLE-CONTENT */
 
 .sample-content {
@@ -192,7 +196,6 @@ top: 1px;
 	margin-bottom: 16px;
   flex: auto;
 }
-
 
 .past-header {
 	padding-bottom: 16px;
