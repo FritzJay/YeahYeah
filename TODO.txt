@@ -6,6 +6,10 @@ Adjust padding-left on Main-content
 
 Make main image float bottom right
 
+make the social media icons align properly on mobile devices
+
+Combine ALL stylesheets into a common denominator.
+Create a new stylesheet with only the unique items for each page.
 
 
 ================== Index/Home ====================
