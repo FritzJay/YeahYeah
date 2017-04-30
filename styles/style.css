@@ -49,22 +49,6 @@
   font-family: Arial;
 }
 
-.main-content .button-main {
-  background-color: transparent;
-  -moz-border-radius: 8px;
-  -webkit-border-radius: 8px;
-  border-radius: 8px;
-  border: 3px solid #ffffff;
-  display: inline-block;
-  cursor: pointer;
-  color: #ffffff;
-  font-family: Arial;
-  font-size: 16px;
-  padding: 10px 24px;
-  text-decoration: none;
-	margin-left: 32px;
-}
-
 .main-img {
   padding-bottom: 16px;
   overflow: hidden;
@@ -84,8 +68,8 @@
   background-color: #FFFFFF;
   height: 100px;
   bottom: 0;
-  width: fluid;
-padding: 0px 16px 16px 16px;
+  width: auto;
+  padding: 0px 16px 16px 16px;
 	margin-top: 16px;
 	position: static;
 }

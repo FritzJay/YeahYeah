@@ -1,33 +1,9 @@
 @charset "UTF-8";
 /* CSS Document */
 
-/* ------------- HEADER --------------- */
-
-/* NAVIGATION */
-
-.navigation-container {
-  background-color: white;
-  padding: 16px 0 16px 0;
+:root {
+  --main-color: #3F88C5;
 }
-
-.navigation .outside-border {
-  border-top: 4px solid black;
-  border-bottom: 4px solid black;
-  margin: 0px 16px 0px 16px;
-  padding: 5px 0 5px 0;
-}
-
-.navigation .inside-border {
-  border-top: 3px solid black;
-  border-bottom: 3px solid black;
-}
-
-.navigation .navbar-brand img {
-  height: 100%;
-  vertical-align: middle;
-}
-
-/* ------------- MAIN ------------------ */
 
 #main {
   margin-left: 16px;

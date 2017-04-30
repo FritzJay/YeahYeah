@@ -1,9 +1,13 @@
 @charset "UTF-8";
 /* CSS Document */
 
+:root {
+  --main-color: #393D3F;
+}
+
 /*  MAIN CONTENT */
 .main-content {
-  background-color: #393D3F;
+  background-color: var(--main-color);
   background-repeat: no-repeat;
   background-position: right bottom;
   margin-top: 100px;
@@ -123,7 +127,7 @@
 .profile-text-2 {
 	height: flex;
 	min-height: 150px;
-	background-color: #393D3F;
+	background-color: var(--main-color);
 	padding: 20px 20px 20px 20px;
 	color: white;
 	text-align: center;
@@ -132,7 +136,7 @@
 .profile-text-1 {
 	height: flex;
 	min-height: 150px;
-	background-color: #393D3F;
+	background-color: var(--main-color);
 	padding: 20px 20px 20px 20px;
 	color: white;
 	text-align: center;
@@ -156,7 +160,7 @@
 
 .sample-content {
 	height: flex;
-  background-color: #393D3F;
+  background-color: var(--main-color);
 	margin-top: 0px;
 	margin-bottom: 16px;
   flex: auto;

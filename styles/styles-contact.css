@@ -1,33 +1,9 @@
 @charset "UTF-8";
 /* CSS Document */
 
-/* ------------- HEADER --------------- */
-
-/* NAVIGATION */
-
-.navigation-container {
-  background-color: white;
-  padding: 16px 0 16px 0;
+:root {
+  --main-color: #FFE81E;
 }
-
-.navigation .outside-border {
-  border-top: 4px solid black;
-  border-bottom: 4px solid black;
-  margin: 0px 16px 0px 16px;
-  padding: 5px 0 5px 0;
-}
-
-.navigation .inside-border {
-  border-top: 3px solid black;
-  border-bottom: 3px solid black;
-}
-
-.navigation .navbar-brand img {
-  height: 100%;
-  vertical-align: middle;
-}
-
-/* ------------- MAIN ------------------ */
 
 #main {
   margin-left: 16px;
@@ -36,18 +12,13 @@
 
 /*  MAIN CONTENT */
 .main-content {
-  background-color: #FFE81E;
-  background-repeat: no-repeat;
-  background-position: right bottom;
-  margin-top: 100px;
+  background-color: var(--main-color);
 	padding-left: 48px;
 	padding-top: 48px;
 }
 
 .main-content h1 {
   padding: 16px 0 5px 0;
-  color: white;
-  font-family: Arial;
 	font-size: 350%
 }
 
@@ -71,7 +42,6 @@
 
 .main-img img {
   max-width: 100%;
-  height: auto;
 }
 
 /* INITIAL-FOOTER */
@@ -135,7 +105,7 @@
 /* CONTACT-ROW */
 
 .company-contact {
-  background-color: #FFE81E;
+  background-color: var(--main-color);
 	margin-bottom: 16px;
 	color: white;
 }
@@ -191,88 +161,5 @@
 /* FOOTER CONTAINER */
 
 .footer-container {
-  background-color: #FFFFFF;
-  height: 100px;
-  bottom: 0;
-  width: fluid;
-	padding: 0px 16px 16px 16px;
-}
-
-.solid-line-tb {
-	border-top: 4px solid black;
-	border-bottom: 4px solid black;
-	padding: 5px 0 5px 0;
-	height: 100%;
-}
-
-.solid-line {
-	border-top: 3px solid black;
-	border-bottom: 3px solid black;
-	padding: 5px 0 5px 0;
-	height: 100%;
-}
-
-.dashed-line {
-	border-top: 3px dashed black;
-	border-bottom: 3px dashed black;
-	padding: 5px 0 5px 0;
-	height: 100%;
-}
-
-.inner-dashed-line {
-	border-right: 3px solid black;
-	border-left: 3px solid black;
-	margin-right: 6px;
-	margin-left: 6px;
-	padding: 5px 0 5px 0;
-	height: 100%;
-}
-
-/* FOOTER CONTENT */
-
-/* CENTER BOX */
-.inner-dashed-line {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.number {
-  font-size: 27px;
-  flex: 1 1 auto;
-  font-weight: bold;
-}
-
-.year {
-  font-size: 12px;
-}
-
-.footer-parent {
-  height: 100%;
-  display: flex;
-  align-items: center;
-  float:left;
-}
-
-.solid-line h6 {
-  float: left;
-  line-height: 20px;
-  padding-left: 7px;
-}
-
-.logo {
-  float: right;
-	height: 50px;
-	padding: 7px 7px 7px 7px;
-}
-
-.logo:hover {
-  opacity: 0.54;
-}
-
-.logo:active {
   position: relative;
-  top: 3px;
 }
