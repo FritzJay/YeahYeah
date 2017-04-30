@@ -1,4 +1,3 @@
-Show menu when not toggled
 
 Change 'get started' button size when screen size changes
 
