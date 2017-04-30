@@ -157,9 +157,12 @@ padding: 0px 16px 16px 16px;
 
 .footer-parent {
   height: 100%;
+  width: 100%;
   display: flex;
+  flex-flow: row nowrap;
   align-items: center;
-  float:left;
+  justify-content: space-between;
+  float: left;
 }
 
 .solid-line h6 {
@@ -168,8 +171,15 @@ padding: 0px 16px 16px 16px;
   padding-left: 7px;
 }
 
-.logo {
+.icon-container {
   float: right;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-content: center;
+}
+
+.logo {
 	height: 50px;
 	padding: 7px 7px 7px 7px;
 }
