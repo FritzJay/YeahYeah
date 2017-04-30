@@ -37,10 +37,8 @@
 /*  MAIN CONTENT */
 .main-content {
   background-color: #FF2E2E;
-  background-repeat: no-repeat;
-  background-position: right bottom;
   margin-top: 100px;
-  height: auto;
+  height: 70vh;
   overflow: hidden;
 }
 
@@ -67,16 +65,6 @@
 	margin-left: 32px;
 }
 
-.main-content .button-main:hover {
-  background-color: white;
-  color: red;
-}
-
-.main-content .button-main:active {
-position: relative;
-top: 1px;
-}
-
 .main-img {
   padding-bottom: 16px;
   overflow: hidden;
@@ -86,11 +74,9 @@ top: 1px;
   max-width: 75%;
   height: auto;
   float: right;
-  vertical-align: bottom;
 }
 
 /* ------------- FOOTER ------------------ */
-
 
 /* FOOTER CONTAINER */
 
