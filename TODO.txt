@@ -7,8 +7,3 @@ Make main image float bottom right
 
 Combine ALL stylesheets into a common denominator.
 Create a new stylesheet with only the unique items for each page.
-
-
-================== Index/Home ====================
-
-1. Scale the footer and header so that all content is on one screen.

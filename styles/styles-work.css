@@ -190,11 +190,9 @@ top: 1px;
 /* SAMPLE-CONTENT */
 
 .sample-content {
-	height: flex;
   background-color: #A9E86A;
 	margin-top: 0px;
 	margin-bottom: 16px;
-  flex: auto;
 }
 
 .past-header {
