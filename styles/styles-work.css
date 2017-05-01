@@ -174,6 +174,7 @@ top: 1px;
 }
 
 /* ------------- SAMPLES -------------- */
+
 .samples div {
 	display: flex;
   justify-content: center;
@@ -239,10 +240,12 @@ top: 1px;
 	padding:10px 24px;
 	text-decoration:none;
 }
+
 .form-horizontal .button-contact:hover {
 	background-color: white;
   	color: #A9E86A;
 }
+
 .form-horizontal .button-contact:active {
 	position:relative;
 	top:1px;
